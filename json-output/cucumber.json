@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Fleury Login Test Scenario",
+        "description": "",
+        "id": "fleury-login-feature;fleury-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14763309700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on page",
+            "match": {
+              "location": "LoginStepDefinition.given()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192149700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on Unidade",
+            "match": {
+              "location": "LoginStepDefinition.when()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4342242001,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user choose the facility",
+            "match": {
+              "location": "LoginStepDefinition.user_choose_the_facility()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241738001,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects an unit",
+            "match": {
+              "location": "LoginStepDefinition.user_selects_an_unit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1747663600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the unit name is the same selected",
+            "match": {
+              "location": "LoginStepDefinition.unit_same_selected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Fleury Login Feature",
+    "description": "",
+    "id": "fleury-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/marce/eclipse-workspace/UnidadesFleury/src/main/java/Features/login.feature"
+  }
+]
